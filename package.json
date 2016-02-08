@@ -1,0 +1,37 @@
+{
+  "name": "form-hotkey-submit",
+  "version": "0.0.1",
+  "description": "Quickly submit forms using hotkey",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "form",
+    "submit",
+    "hotkey"
+  ],
+  "author": "Elliott Linder <elliott@linder.bz>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.5.0",
+    "babelify": "^7.2.0",
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.0",
+    "gulp-if": "^2.0.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.2",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^3.1.0",
+    "jquery": "^2.2.0",
+    "lodash": "^4.2.1",
+    "lodash.assign": "^4.0.2",
+    "run-sequence": "^1.1.5",
+    "semver": "^5.1.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
