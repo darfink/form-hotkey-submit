@@ -1,6 +1,6 @@
 'use strict';
 
-var _ = require('lodash');
+var _ = require('lodash').noConflict();
 var events = [
   require('./events/dom0.js'),
   require('./events/eventi.js'),

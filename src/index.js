@@ -1,5 +1,5 @@
 'use strict';
-var _ = require('lodash');
+var _ = require('lodash').noConflict();
 var $ = require('jquery');
 var SubmitManager = require('./submitmanager');
 
